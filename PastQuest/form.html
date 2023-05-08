@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>PastQuestion</title>
+	<link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+<body>
+	<div id="div-container">
+		<div id="wrapper">
+			<div id="banner">
+			
+			</div>
+			<div id="menu">
+			
+			</div>
+			<div id="container">
+				<div id="content-area">
+					<div id="form-div">
+						<form>
+							<div class="firstname">
+								<label>First Name:</label>
+								<input type="text" name="firstname" placeholder="Enter first name" id="fname" onkeyup="validateFname()">
+								<span id="firstnameError"></span>
+							</div>
+							<div class="lastname">
+								<label>Last Name:</label>
+								<input type="text" name="firstname" placeholder="Enter last name" id="lname" onkeyup="validateLname()">
+								<span id="lastnameError"></span>
+							</div>
+							<div id="button-div">
+								<button id="form-button" onclick="return validateButton()">
+									<a href="#">
+										Submit
+									</a>
+								</button>
+								<span id="submitError"></span>
+							</div>
+						</form>
+					</div>
+				</div>
+				<div id="side-bar">
+			
+				</div>
+			</div>
+			<div id="footer">
+			
+			</div>
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
